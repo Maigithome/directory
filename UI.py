@@ -17,6 +17,7 @@ def input_name_directory():
     return f"id: {ID} Фамилия: {surname} Имя: {name} Отчество: {patronymic} Телефон: +7 {phone}\
         Должность: {post} Отдел: {department}"
 
+
 def check_phone():
     flag = False
     while flag == False:
@@ -27,15 +28,21 @@ def check_phone():
         else:
             print("Некорректный ввод, повторите попытку.")
 
+
 def input_check_choice(text):
     flag = False
     while flag == False:
         user_answer = input(text)
         try:
             int(user_answer)
-            if 0 < int(user_answer) < 3:
+            if 0 < int(user_answer) < 6:
                 return int(user_answer)
             else:
                 flag == False
         except ValueError:
             flag == False
+
+
+def del_id():
+    d_id = int(input("Введите ID сотрудника для удаления: "))
+    return d_id
