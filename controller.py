@@ -1,8 +1,8 @@
-# import reading_data
-# import print_all_data
+import reading_data
+import print_all_data
 import UI
-# import add_data
-# import logger
+import add_data
+import logger
 
 
 
