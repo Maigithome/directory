@@ -3,7 +3,8 @@ import print_all_data
 import UI
 import add_data
 import logger
-import del_data #import remove_data
+import del_data
+import find_data
 
 
 def button_click():
@@ -22,7 +23,7 @@ def button_click():
         logger.result_loger(user_data)
         UI.print_data("\nДанные успешно добавлены в справочник сотрудников.")
     elif answer == 3:
-        print("Поиск сотрудника:")
+        find_data.finder_data()
     elif answer == 4:
         del_data.remove_data()
     else:
