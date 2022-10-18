@@ -49,5 +49,5 @@ def del_id():
 
 
 def find_data():
-    f_data = input("Введите id: сотрудника для поиска: ")
+    f_data = input("Введите данные сотрудника для поиска: ")
     return f_data
