@@ -44,5 +44,10 @@ def input_check_choice(text):
 
 
 def del_id():
-    d_id = int(input("Введите ID сотрудника для удаления: "))
+    d_id = input("Введите ID сотрудника для удаления: ")
     return d_id
+
+
+def find_data():
+    f_data = input("Введите данные сотрудника для поиска: ")
+    return f_data
