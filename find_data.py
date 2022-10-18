@@ -17,5 +17,4 @@ def finder_data():
             print(lst[i])
             result = 1
     if result == 0:
-        print(f"Сотрудника c данными \"{find_str}\" в базе не обнаружено!")
-    controller.button_click()
+        print(f'Сотрудника c данными "{find_str}" в базе не обнаружено!')

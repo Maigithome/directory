@@ -26,4 +26,3 @@ def remove_data():
                 result = 1
     if result == 0:
         print(f"Сотрудника c ID {id} в базе не обнаружено!")
-    controller.button_click()
