@@ -8,12 +8,12 @@ def input_data(data):
 
 def input_name_directory():
     phone = check_phone()
-    ID = input('id: ')
+    ID = input("id: ")
     surname = input("Фамилия: ")
     name = input("Имя: ")
     patronymic = input("Отчество: ")
-    post = input('Должность: ')
-    department = input('Отдел: ')
+    post = input("Должность: ")
+    department = input("Отдел: ")
     return f"id: {ID} Фамилия: {surname} Имя: {name} Отчество: {patronymic} Телефон: +7{phone}\
         Должность: {post} Отдел: {department}"
 
