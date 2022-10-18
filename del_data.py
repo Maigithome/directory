@@ -1,4 +1,3 @@
-import controller
 from UI import del_id
 
 
