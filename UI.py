@@ -14,7 +14,7 @@ def input_name_directory():
     patronymic = input("Отчество: ")
     post = input('Должность: ')
     department = input('Отдел: ')
-    return f"id: {ID} Фамилия: {surname} Имя: {name} Отчество: {patronymic} Телефон: +7 {phone}\
+    return f"id: {ID} Фамилия: {surname} Имя: {name} Отчество: {patronymic} Телефон: +7{phone}\
         Должность: {post} Отдел: {department}"
 
 
@@ -49,5 +49,5 @@ def del_id():
 
 
 def find_data():
-    f_data = input("Введите данные сотрудника для поиска: ")
+    f_data = input("Введите id: сотрудника для поиска: ")
     return f_data
