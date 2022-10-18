@@ -26,5 +26,4 @@ def remove_data():
                 result = 1
     if result == 0:
         print(f"Сотрудника c ID {id} в базе не обнаружено!")
-    write_file("uses.csv", lst)
     controller.button_click()
