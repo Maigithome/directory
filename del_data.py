@@ -21,6 +21,7 @@ def remove_data():
             if f"id: {id}" in lst[i]:
                 del lst[i]
                 lst = str(",".join(lst))
+                write_file("uses.csv", lst)
                 print(f"Сотрудник c ID {id} успешно удален из базы!")
                 result = 1
     if result == 0:
